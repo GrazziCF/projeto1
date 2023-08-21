@@ -1,1 +1,18 @@
-
+  .classe1 {
+    color: blue;
+  }
+  
+  .classe2 {
+    color: red;
+    background-color: yellow;
+  }
+  
+  .classe3 {
+    color: rgb(255, 0, 234);
+  }
+  
+  #div1, #div2, #div3, #div4, #div5 {
+    border: 1px solid rgb(235, 0, 0);
+    padding: 10px;
+    margin: 10px;
+  }
