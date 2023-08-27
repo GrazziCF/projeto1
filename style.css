@@ -1,8 +1,70 @@
-  .a{
-    color: black;
-    style=text-decoration: none;
-  }
-.TITLE{
-    color: red;
-    background-color: yellow;
-  }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: 	#a93af8;
+}
+
+.header {
+    background-color: #4B0082;
+    color: rgb(251, 251, 252);
+    text-align: center;
+    padding: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.restaurant-list {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #4B0082;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.restaurant {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #c18aff;
+    border-radius: 8px;
+    background-color: #eae0f8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.restaurant img {
+    max-width: 100px;
+    max-height: 100px;
+    margin-right: 15px;
+    border-radius: 8px;
+}
+
+a{
+    position: relative;
+    text-decoration: none;
+    color: #010002;
+    font-family:'Times New Roman', Times, serif;
+    font-size:150%;
+
+}
+a:before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #2c0a47;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+a:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
