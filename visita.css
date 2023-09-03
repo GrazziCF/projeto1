@@ -3,6 +3,11 @@
     margin: 0;
     box-sizing: border-box;
 }
+p{
+    text-align: justify;
+    line-height: 1.5;
+    margin-bottom: 0.5cm;
+}
 body{
     background-color: #eee;
 }
@@ -41,4 +46,8 @@ header h1{
 
 .gallery-items:hover{
     transform: scale(1.3);
+}
+
+.margem{
+    margin: 1cm;
 }
