@@ -1,4 +1,3 @@
-
 let now_playing = document.querySelector(".now-playing");
 let track_art = document.querySelector(".track-art");
 let track_name = document.querySelector(".track-name");
@@ -23,12 +22,6 @@ let curr_track = document.createElement('audio');
 
 
 let track_list = [{
-        name: "Seven",
-        artist: "Jeon JungKook",
-        image: "https://i.pinimg.com/564x/76/65/fa/7665fafb1596ce2ee8eb5e27ca8c4949.jpg",
-        path: "./musicas/seven.mp3"
-    },
-    {
         name: "Golden Hour",
         artist: "JVKE",
         image: "https://i.pinimg.com/564x/07/de/9d/07de9d4d25e8eb8b47ddded51e5f550b.jpg",
@@ -38,7 +31,7 @@ let track_list = [{
         name: "Last Friday Night",
         artist: "Katy Perry",
         image: "https://i.pinimg.com/564x/79/df/6d/79df6d2a502595f0c853292e76c9d6c7.jpg",
-        path: "./musicas/lastfriday.mp3",
+        path: "./musicas/lastfriday.mp3"
     },
     {
         name: "Still Love You",
@@ -81,6 +74,12 @@ let track_list = [{
         artist: "David Kushner",
         image: "https://i.pinimg.com/564x/5e/7b/f1/5e7bf18d5470cb99f4d5d00aecab61a6.jpg",
         path: "./musicas/daylight.mp3",
+    },
+    {
+        name: "Seven",
+        artist: "Jeon JungKook",
+        image: "https://i.pinimg.com/564x/76/65/fa/7665fafb1596ce2ee8eb5e27ca8c4949.jpg",
+        path: "./musicas/seven.mp3",
     },
 ];
 
