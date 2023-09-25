@@ -26,61 +26,61 @@ let track_list = [{
         name: "Seven",
         artist: "Jeon JungKook",
         image: "https://i.pinimg.com/564x/76/65/fa/7665fafb1596ce2ee8eb5e27ca8c4949.jpg",
-        path: "seven.mp3"
+        path: "./musicas/seven.mp3"
     },
     {
         name: "Golden Hour",
         artist: "JVKE",
         image: "https://i.pinimg.com/564x/07/de/9d/07de9d4d25e8eb8b47ddded51e5f550b.jpg",
-        path: "goldenhour.mp3"
+        path:  "./musicas/goldenhour.mp3"
     },
     {
         name: "Last Friday Night",
         artist: "Katy Perry",
         image: "https://i.pinimg.com/564x/79/df/6d/79df6d2a502595f0c853292e76c9d6c7.jpg",
-        path: "lastfriday.mp3",
+        path: "./musicas/lastfriday.mp3",
     },
     {
         name: "Still Love You",
         artist: "Lee Hong Gi",
         image: "https://i.pinimg.com/564x/73/af/9d/73af9d1f02668d600179aec73a29dde2.jpg",
-        path: "leehong.mp3",
+        path: "./musicas/leehong.mp3",
     },
     {
         name: "Mirrors",
         artist: "Justin Timberlake",
         image: "https://i.pinimg.com/564x/84/04/01/840401115b1f574cd33048e4b4fb33da.jpg",
-        path: "mirros.mp3",
+        path: "./musicas/mirros.mp3",
     },
     {
         name: "Strange Vibes",
         artist: "Dj Boss",
         image: "https://i.pinimg.com/564x/9f/10/c1/9f10c176dba9523c73725d6c09e01085.jpg",
-        path: "strangervibes.mp3",
+        path: "./musicas/strangervibes.mp3",
     },
     {
         name: "The Hills x The Color Violet x Creepin",
         artist: "Xanemusic, NVBR",
         image: "https://i.pinimg.com/564x/d6/61/0f/d6610f2b801d6e8360421f5c2bf08102.jpg",
-        path: "thehills.mp3",
+        path: "./musicas/thehills.mp3",
     },
     {
         name: "Fever",
         artist: "Enhypen",
         image: "https://i.pinimg.com/564x/9c/cc/82/9ccc822172defd9a6b556ff35b5f89e1.jpg",
-        path: "fever.mp3",
+        path: "./musicas/fever.mp3",
     },
     {
         name: "Congratulations",
         artist: "Post Malone",
         image: "https://i.pinimg.com/564x/d6/04/19/d60419854ceb1f68a423f36aad380e36.jpg",
-        path: "congratulations.mp3",
+        path: "./musicas/congratulations.mp3",
     },
     {
         name: "Daylight",
         artist: "David Kushner",
         image: "https://i.pinimg.com/564x/5e/7b/f1/5e7bf18d5470cb99f4d5d00aecab61a6.jpg",
-        path: "daylight.mp3",
+        path: "./musicas/daylight.mp3",
     },
 ];
 
