@@ -82,9 +82,9 @@ let track_list = [{
         path: "./musicas/seven.mp3",
     },
     {
-        name: "Star boy",
+        name: "Starboy",
         artist: "The Weeknd",
-        image: "https://github.com/GrazziCF/projeto1/blob/main/the%20weeknd.jpg.jpg",
+        image: "https://i.pinimg.com/736x/d9/72/d7/d972d7baef0bb4852738ba20827580ef.jpg",
         path: "./musicas/Starboy.mp3",
     },
 ];
