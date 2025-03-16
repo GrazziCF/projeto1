@@ -81,6 +81,12 @@ let track_list = [{
         image: "https://i.pinimg.com/564x/76/65/fa/7665fafb1596ce2ee8eb5e27ca8c4949.jpg",
         path: "./musicas/seven.mp3",
     },
+    {
+        name: "Star boy",
+        artist: "The Weeknd",
+        image: "https://github.com/GrazziCF/projeto1/blob/main/the%20weeknd.jpg.jpg",
+        path: "./musicas/seven.mp3",
+    },
 ];
 
 function loadTrack(track_index) {
